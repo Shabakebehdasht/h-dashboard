@@ -47,3 +47,6 @@ test-results/
 blob-report/
 playwright/.cache/
 .server.pid
+
+# Hermes agent instance rules
+.hermes.md
