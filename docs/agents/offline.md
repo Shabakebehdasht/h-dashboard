@@ -10,6 +10,8 @@
 
 > **CSP connect-src (#1281):** the phase-1 policy derives its `connect-src` origins from `config('map.routing_url')` and `config('map.geocoding_url')` (OSRM + Nominatim). An on-prem tile/routing/geocoding host must therefore be added to **both** the config and the resulting policy; otherwise `/maps/route` and `/maps/route2` fail under enforcing. OSRM/Nominatim are documented above as internal.
 
+> **CSP connect-src (#1281):** the phase-1 policy derives its `connect-src` origins from `config('map.routing_url')` and `config('map.geocoding_url')` (OSRM + Nominatim). An on-prem tile/routing/geocoding host must therefore be added to **both** the config and the resulting policy; otherwise `/maps/route` and `/maps/route2` fail under enforcing. OSRM/Nominatim are documented above as internal.
+
 ## Verdict
 
 - **Browser runtime:** the only real internet dependency is the **map basemap tile**,
